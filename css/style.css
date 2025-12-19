@@ -24,7 +24,7 @@ header {
 
 }
 
-ul {
+.header_ul {
     display: flex;
     column-gap: 40px;
 
@@ -95,7 +95,7 @@ h1 {
 .section2 {
     padding: 80px;
     height: 560px;
-   width: min(100%, 1440px);
+    width: min(100%, 1440px);
     background-color: #FFE18A;
     display: flex;
     justify-content: space-between;
@@ -129,16 +129,38 @@ h2 {
     text-align: center;
     color: #FFFFFF;
 }
-.section2_article2{
-     display: flex;
+
+.section2_article2 {
+    display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
 }
-.second_pic{
+
+.second_pic {
     height: 100%;
     width: 100%;
     display: flex;
     object-fit: cover;
 
+}
+
+/* footer  */
+footer {
+    background-color: #372D23;
+    padding: 32px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_li{
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+color: #FCC21B;
+}
+.footer_ul{
+    display: flex;
+    column-gap: 24px;
 }
